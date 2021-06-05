@@ -46,7 +46,7 @@
 </div>
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModal2">
+<div class="modal fade" id="exampleModal3">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -67,6 +67,48 @@
                 <button type="button" class="btn btn-primary">
                     Save changes
                 </button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header border-bottom-0">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-title text-center">
+                    <h4>Login</h4>
+                </div><br>
+                <div class="d-flex flex-column text-center">
+                    <form>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email1" placeholder="Your email address...">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="password1" placeholder="Your password...">
+                        </div>
+                        <button type="button" class="btn btn-info btn-block btn-round">Login</button>
+                    </form>
+                    <form>
+                        <div class="form-group">
+                            <h6 style="text-align:left">No. Handphone</h6>
+
+                            <input type="email" class="form-control" id="email1" placeholder="No. Handphone">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="password1" placeholder="Your password...">
+                        </div>
+                        <button type="button" class="btn btn-info btn-block btn-round">Login</button>
+                    </form>
+                </div>
+            </div>
+            <div class="modal-footer d-flex justify-content-center">
+                <div class="signup-section">Not a member yet? <a href="#a" class="text-info"> Sign Up</a>.</div>
             </div>
         </div>
     </div>

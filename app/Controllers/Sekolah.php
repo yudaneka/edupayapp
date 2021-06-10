@@ -96,12 +96,36 @@ class Sekolah extends BaseController
                     'required' => '{field} sekolah harus diisi.',
                     'is_unique' => '{field} sekolah sudah terdaftar.'
                 ]
-            ]
+                ],
+                'gedung' => [
+                    'rules' => 'max_size[gedung,3072]|is_image[gedung]|mime_in[gedung,image/jpg,image/jpeg,image/png]',
+                    'errors' => [
+                        'max_size' => 'Ukuran gambar terlalu besar',
+                        'is_image' => 'Yang Anda pilih bukan gambar',
+                        'mime_in' => 'Yang Anda pilih bukan gambar'
+                    ]
+                ]
         ])) {
-            $validation = \Config\Services::validation();
-            //dd($validation);
-            return redirect()->to('sekolah/create')->withInput()->with('validation', $validation);
+            // $validation = \Config\Services::validation();
+            // //dd($validation);
+            // return redirect()->to('sekolah/create')->withInput()->with('validation', $validation);
+            return redirect()->to('sekolah/create')->withInput();
         }
+
+        // ambil gambar
+        $fileGedung = $this->request->getFile('gedung');
+        // jika tidak ada gambar yang diupload
+        if ($fileGedung->getError() == 4){
+            $namaGedung = 'default.jpg';
+        } else{
+            // generate nama gedung random
+            $namaGedung = $fileGedung->getRandomName();
+            // pindahkan file ke folder img
+            $fileGedung->move('img', $namaGedung);
+        }
+        // ambil nama file
+        //$namaGedung = $fileGedung->getName();
+
         // dd($this->request->getVar());
         $slug = url_title($this->request->getVar('name'), '-', true);
         $this->sekolahModel->save([
@@ -110,7 +134,7 @@ class Sekolah extends BaseController
             'alamat' => $this->request->getVar('alamat'),
             'invoice' => $this->request->getVar('invoice'),
             'phone' => $this->request->getVar('phone'),
-            'gedung'=> $this->request->getVar('gedung')
+            'gedung'=> $namaGedung
         ]);
 
         session()->setFlashdata('pesan', 'Data berhasil ditambahkan');

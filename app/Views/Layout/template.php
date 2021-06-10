@@ -23,6 +23,23 @@
         window.jQuery || document.write('<script src="https://getbootstrap.com/docs/4.5/assets/js/vendor/jquery.slim.min.js"><\/script>')
     </script>
     <script src="https://getbootstrap.com/docs/4.5/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+    function previewImg(){
+    const gedung = document.querySelector('#gedung');
+    const gedungLabel = document.querySelector('.custom-file-label');
+    const imgPreview = document.querySelector('.img-preview');
+
+    gedungLabel.textContent = gedung.files[0].name;
+
+    const fileGedung = new FileReader();
+    fileGedung.readAsDataURL(gedung.files[0]);
+
+    fileGedung.onload = function(e){
+        imgPreview.src = e.target.result;
+    }
+    }
+    
+    </script>
 </body>
 
 </html>

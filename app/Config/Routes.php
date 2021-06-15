@@ -32,6 +32,7 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
+$routes->resource('sekolahapi');
 $routes->get('/sekolah', 'Sekolah::index');
 $routes->get('/sekolah/create', 'Sekolah::create');
 $routes->get('/sekolah/(:segment)', 'Sekolah::detail/$1');

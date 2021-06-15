@@ -3,10 +3,15 @@
 namespace App\Controllers;
 
 use App\Models\SekolahModel;
+use CodeIgniter\RESTFul\ResourceController;
+use CodeIgniter\API\ResponseTrait;
 use CodeIgniter\HTTP\RequestInterface;
+use CodeIgniter\Contoller;
 
 class Sekolah extends BaseController
 {
+    use ResponseTrait;
+
     protected $sekolahModel;
     public function __construct()
     {
@@ -27,8 +32,8 @@ class Sekolah extends BaseController
 
         $data = [
             'title' => 'Daftar Sekolah',
-            'seko' => $this->sekolahModel->getSekolah(),
-            'sekolah' => $this->sekolahModel->paginate(3),           
+            'sekolah' => $this->sekolahModel->getSekolah(),
+            'sekolah' => $this->sekolahModel->paginate(5),           
             'pager' => $this->sekolahModel->pager
         ];
         // dd($data);
@@ -145,6 +150,6 @@ class Sekolah extends BaseController
     public function delete($id_school)
     {
         $this->sekolahModel->delete($id_school);
-        return redirect()->to('/sekolah');
+        return redirect()->to('/home');
     }
 }

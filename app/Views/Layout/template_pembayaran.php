@@ -9,7 +9,7 @@
 <body class="d-flex flex-column h-100">
     <header>
         <!-- Fixed navbar -->
-        <?= $this->include('layout/nav_homepage'); ?>
+        <?= $this->include('layout/nav_pembayaran'); ?>
     </header>
 
     <!-- Begin page content -->

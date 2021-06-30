@@ -24,6 +24,40 @@
             </a>
         </div><br><br>
     </div>
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card text-center">
+                <div class="card-body">
+                    <img src="../img/kartika.jpg" class="card-img-top" alt="...">
+                    <h5 class="card-title">SMA KARTIKA SILIWANGI 2 BANDUNG</h5>
+                    <p class="card-text">JL. PAK GATOT RAYA NO. 73, Gegerkalong, Kec. Sukasari, Kota Bandung Prov. Jawa Barat </p>
+                    <a href="#" class="btn btn-primary">Lihat</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="card text-center">
+                <div class="card-body">
+                    <img src="../img/kartika.jpg" class="card-img-top" alt="...">
+                    <h5 class="card-title">SMA KARTIKA SILIWANGI 2 BANDUNG</h5>
+                    <p class="card-text">JL. PAK GATOT RAYA NO. 73, Gegerkalong, Kec. Sukasari, Kota Bandung Prov. Jawa Barat </p>
+                    <a href="#" class="btn btn-primary">Lihat Detail</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="card text-center">
+                <div class="card-body">
+                    <img src="../img/kartika.jpg" class="card-img-top" alt="...">
+                    <h5 class="card-title">SMA KARTIKA SILIWANGI 2 BANDUNG</h5>
+                    <p class="card-text">JL. PAK GATOT RAYA NO. 73, Gegerkalong, Kec. Sukasari, Kota Bandung Prov. Jawa Barat </p>
+                    <a href="#" class="btn btn-primary">Lihat Detail</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="container">
         <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -31,8 +65,9 @@
                 <div class="card">
                     <img src="../img/kartika.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <h5 class="card-title">SMA KARTIKA SILIWANGI 2 BANDUNG</h5>
+                        <p class="card-text">JL. PAK GATOT RAYA NO. 73, Gegerkalong, Kec. Sukasari, Kota Bandung Prov. Jawa Barat </p>
+                        <a class="btn btn-primary card text-center" href="#" role="button">Lihat Detail</a>
                     </div>
                 </div>
             </div>

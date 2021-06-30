@@ -6,9 +6,9 @@ class Home extends BaseController
 {
 	public function index()
 	{
-		return view('homepage');
+		return view('Home Page/homepage');
 	}
-	public function tamplate()
+	public function template()
 	{
 		return view('Layout/template');
 	}

@@ -1,7 +1,7 @@
 <!-- Fixed navbar -->
 <div class="container">
     <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white justify-content-between">
-        <a class="navbar-brand" href="#"></a> <img src="../img/Eidupay.png" width="110" height="63">
+        <a class="navbar-brand" href="<?php echo base_url("pembayaran/tagihan"); ?>"></a> <img src="../img/Eidupay.png" width="110" height="63">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -16,9 +16,9 @@
                         Login
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" data-toggle="modal" data-target="#exampleModal2">Orang Tua Siswa</a>
-                        <a class="dropdown-item" data-toggle="modal" data-target="#exampleModal2" href="#">Admin</a>
-                        <a class="dropdown-item" data-toggle="modal" data-target="#exampleModal2" href="#">Sekolah</a>
+                        <a class="dropdown-item" data-toggle="modal" data-target="#exampleModal1">Orang Tua Siswa</a>
+                        <a class="dropdown-item" data-toggle="modal" data-target="#exampleModal2">Admin</a>
+                        <a class="dropdown-item" data-toggle="modal" data-target="#exampleModal3">Sekolah</a>
                         <!--<div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">Something else here</a> -->
                     </div>
@@ -31,58 +31,34 @@
     </nav>
 </div>
 <!-- Modal -->
-<div class="modal fade" id="exampleModal">
-    <div class="modal-dialog">
+<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">Modal title</h5>
+            <div class="modal-header border-bottom-0">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">
-                        ×</span>
+                    <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
-                <h5>Tooltips in a modal</h5>
-                <a href="#" data-toggle="tooltip" title="GeeksforGeeks" data-placement="right">
-                    Hover over me</a>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">
-                    Close</button>
-                <button type="button" class="btn btn-primary">
-                    Save changes
-                </button>
+                <div class="form-title text-center">
+                    <h4>Login</h4>
+                </div><br>
+                <div class="d-flex flex-column text-center">
+                    <form>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email1" placeholder="Username / NISN ...">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="password1" placeholder="Password...">
+                        </div>
+                        <button type="button" class="btn btn-info btn-block btn-round">Login</button>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal3">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">Modal title 2</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">
-                        ×</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <h5>Tooltips in a modal</h5>
-                <a href="#" data-toggle="tooltip" title="GeeksforGeeks" data-placement="right">
-                    Hover over me</a>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">
-                    Close</button>
-                <button type="button" class="btn btn-primary">
-                    Save changes
-                </button>
-            </div>
-        </div>
-    </div>
-</div>
 <!-- Modal -->
 <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -99,7 +75,35 @@
                 <div class="d-flex flex-column text-center">
                     <form>
                         <div class="form-group">
-                            <input type="email" class="form-control" id="email1" placeholder="No. Handphone...">
+                            <input type="email" class="form-control" id="email1" placeholder="Username / NISN ...">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="password1" placeholder="Password...">
+                        </div>
+                        <button type="button" class="btn btn-info btn-block btn-round">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header border-bottom-0">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-title text-center">
+                    <h4>Login</h4>
+                </div><br>
+                <div class="d-flex flex-column text-center">
+                    <form>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email1" placeholder="Username / NISN ...">
                         </div>
                         <div class="form-group">
                             <input type="password" class="form-control" id="password1" placeholder="Password...">

@@ -56,7 +56,7 @@
                     </tbody>
                 </table>
                 <div class="text-center">
-                    <a class="btn btn-primary btn-lg text-center" href="#" role="button">Lihat Detail</a>
+                    <a class="btn btn-primary btn-lg text-center" href="<?php echo base_url("pembayaran/detail"); ?>" role="button">Lihat Detail</a>
                 </div>
             </div>
         </div>

@@ -1,7 +1,7 @@
 <!-- Fixed navbar -->
 <div class="container">
     <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white justify-content-between">
-        <a class="navbar-brand" href="#"></a> <img src="../img/Eidupay.png" width="110" height="63">
+        <a class="navbar-brand" href="<?php echo base_url("home"); ?>"><img src="../img/Eidupay.png" width="110" height="63"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>

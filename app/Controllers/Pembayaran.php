@@ -13,4 +13,14 @@ class Pembayaran extends BaseController
     {
         return view('Pembayaran/tagihan');
     }
+
+    public function detail()
+    {
+        return view('Pembayaran/detail');
+    }
+
+    public function detailbulan()
+    {
+        return view('Pembayaran/detailbulan');
+    }
 }

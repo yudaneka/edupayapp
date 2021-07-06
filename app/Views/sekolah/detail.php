@@ -17,9 +17,9 @@
                             <p class="card-text"><b>Alamat : </b><?= $sekolah['alamat']; ?></p>
                             <p class="card-text"><small class="text-muted"><b>Telepon : </b>
                                     <?= $sekolah['phone']; ?></small></p>
-                            <a href="" class="btn btn-success">Bayar</a>
+                            <!-- <a href="" class="btn btn-success">Bayar</a> -->
+                            <a href="/sekolah" class="btn btn-primary">Kembali</a>
                             <br><br>
-                            <a href="/sekolah">Kembali</a>
                         </div>
                     </div>
                 </div>

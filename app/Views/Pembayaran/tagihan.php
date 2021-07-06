@@ -43,20 +43,21 @@
                     <tbody>
                         <tr>
                             <th scope="row">Nama : </th>
-                            <td>dimas aji</td>
+                            <td>Dimas Aji Wiratama</td>
                         </tr>
                         <tr>
                             <th scope="row">Sekolah :</th>
-                            <td>SMAN</td>
+                            <td>SMAN 95</td>
                         </tr>
                         <tr>
-                            <th scope="row">NiSN :</th>
-                            <td colspan="2">123</td>
+                            <th scope="row">NISN :</th>
+                            <td colspan="2">1202173222</td>
                         </tr>
                     </tbody>
                 </table>
                 <div class="text-center">
-                    <a class="btn btn-primary btn-lg text-center" href="<?php echo base_url("pembayaran/detail"); ?>" role="button">Lihat Detail</a>
+                    <a href="" type = "submit" class="btn btn-success">Bayar</a>
+                    <a class="btn btn-primary" href="<?php echo base_url("pembayaran/detail"); ?>" type="button">Lihat Detail</a>
                 </div>
             </div>
         </div>

@@ -63,7 +63,7 @@ class Sekolah extends BaseController
         // $builder = $db->table('ms_school');
         // $query   = $builder->get(2,0);
 
-        // $this->jancok();
+        // $this->ok();
 
         // $se = $this->sekolahModel->getSekolah($slug);
         // if(empty($sekolah)){

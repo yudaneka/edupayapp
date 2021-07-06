@@ -15,10 +15,10 @@
     <div class="container">
         <h4>Data Personal</h4>
         <div class="title">Nama</div>
-        <h6>Nama ... </h6>
+        <h6>Dimas Aji Wiratama </h6>
         <hr>
         <div class="title">Nomor Induk Siswa</div>
-        <h6>1202153377</h6>
+        <h6>1202173222</h6>
         <hr>
     </div><br><br>
 
@@ -27,7 +27,7 @@
         <table class="table table-bordered">
             <thead>
                 <tr>
-                    <th scope="col"></th>
+                    <th scope="col">Tanggal</th>
                     <th scope="col">Kategori</th>
                     <th scope="col">Sub Tagihan</th>
                     <th scope="col">Status</th>
@@ -35,13 +35,13 @@
             </thead>
             <tbody>
                 <tr>
-                    <th scope="row">Juli, 2021</th>
+                    <th scope="row">1 Juli 2021</th>
                     <td>Rp. 500.000</td>
                     <td class="text-danger">Belum Dibayar</td>
                     <td></td>
                 </tr>
                 <tr>
-                    <th scope="row">Juli, 2021</th>
+                    <th scope="row">2 Juli 2021</th>
                     <td>Rp. 500.000</td>
                     <td class="text-success">Sudah Dibayar</td>
                     <td><button href="" type="button" class="btn btn-info">LIHAT DETAIL</button></td>

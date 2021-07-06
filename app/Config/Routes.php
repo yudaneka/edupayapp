@@ -33,10 +33,12 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 $routes->resource('sekolahapi');
+$routes->resource('userapi');
 $routes->get('/sekolah', 'Sekolah::index');
 $routes->get('/sekolah/create', 'Sekolah::create');
 $routes->get('/sekolah/(:segment)', 'Sekolah::detail/$1');
 
+//$routes->get('/Transaction/(:segment)', 'snap::detail/$1');
 
 /*
  * --------------------------------------------------------------------

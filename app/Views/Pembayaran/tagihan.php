@@ -53,6 +53,10 @@
                             <th scope="row">NISN :</th>
                             <td colspan="2">1202173222</td>
                         </tr>
+                        <tr>
+                            <th scope="row">Tagihan :</th>
+                            <td colspan="2">Rp 100.000 </td>
+                        </tr>
                     </tbody>
                 </table>
                 <div class="text-center">

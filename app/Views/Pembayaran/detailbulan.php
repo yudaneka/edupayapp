@@ -36,15 +36,15 @@
             <tbody>
                 <tr>
                     <th scope="row">1 Juli 2021</th>
-                    <td>Rp. 500.000</td>
+                    <td>Rp. 100.000</td>
                     <td class="text-danger">Belum Dibayar</td>
                     <td></td>
                 </tr>
                 <tr>
                     <th scope="row">2 Juli 2021</th>
-                    <td>Rp. 500.000</td>
+                    <td>Rp. 100.000</td>
                     <td class="text-success">Sudah Dibayar</td>
-                    <td><button href="" type="button" class="btn btn-info">LIHAT DETAIL</button></td>
+                    <td class="text-primary">Berhasil</td>
                 </tr>
             </tbody>
         </table>

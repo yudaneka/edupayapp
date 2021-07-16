@@ -14,4 +14,8 @@ class Home extends BaseController
 		return view('Layout/template');
 	}
 	
+	public function midtrans()
+	{
+		return view('midtrans/transaski');
+	}
 }

@@ -6,6 +6,10 @@ class Pengaturan extends BaseController
 {
     public function index()
     {
-        return view('Pengaturan/PengaturanV');
+        return view('Pengaturan/pengaturanV');
+    }
+    public function editprofileuser()
+    {
+        return view('Pengaturan/editprofileuser');
     }
 }

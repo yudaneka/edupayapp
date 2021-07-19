@@ -69,13 +69,13 @@
             </thead>
             <tbody>
                 <tr>
-                    <th scope="row">1 Juli 2021</th>
+                    <th scope="row">Juli, 2021</th>
                     <td>Rp. 500.000</td>
                     <td class="text-danger">Belum Dibayar</td>
                     <td></td>
                 </tr>
                 <tr>
-                    <th scope="row">2 Juli 2021</th>
+                    <th scope="row">Juli, 2021</th>
                     <td>Rp. 500.000</td>
                     <td class="text-success">Sudah Dibayar</td>
                     <td><a class="btn btn-primary btn-lg text-center" href="<?php echo base_url("pembayaran/detailbulan"); ?>" role="button">Lihat Detail</a></td>

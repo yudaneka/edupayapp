@@ -23,11 +23,11 @@
     </div><br><br>
 
     <div class="container">
-        <div class="title">Riwayat Tagihan</div>
+        <div class="title">Tagihan</div>
         <table class="table table-bordered">
             <thead>
                 <tr>
-                    <th scope="col">Tanggal</th>
+                    <th scope="col"></th>
                     <th scope="col">Kategori</th>
                     <th scope="col">Sub Tagihan</th>
                     <th scope="col">Status</th>
@@ -35,16 +35,16 @@
             </thead>
             <tbody>
                 <tr>
-                    <th scope="row">1 Juli 2021</th>
+                    <th scope="row">Pembayaran SPP</th>
                     <td>Rp. 500.000</td>
-                    <td class="text-danger">Belum Dibayar</td>
+                    <td class="text-danger"></td>
                     <td></td>
                 </tr>
                 <tr>
-                    <th scope="row">2 Juli 2021</th>
+                    <th scope="row">Total</th>
+                    <td></td>
                     <td>Rp. 500.000</td>
-                    <td class="text-success">Sudah Dibayar</td>
-                    <td><button href="" type="button" class="btn btn-info">LIHAT DETAIL</button></td>
+                    <td class="text-success">Sudah bayar</td>
                 </tr>
             </tbody>
         </table>

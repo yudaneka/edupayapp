@@ -53,10 +53,18 @@
                             <th scope="row">NISN :</th>
                             <td colspan="2">1202173222</td>
                         </tr>
+                        <tr>
+                            <th scope="row">Tagihan :</th>
+                            <td colspan="2">Rp 500.000</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Status :</th>
+                            <td class="text-danger">Belum Dibayar</td>
+                        </tr>
                     </tbody>
                 </table>
                 <div class="text-center">
-                    <a href="" type = "submit" class="btn btn-success">Bayar</a>
+                    <a href="" type="submit" class="btn btn-success">Bayar</a>
                     <a class="btn btn-primary" href="<?php echo base_url("pembayaran/detail"); ?>" type="button">Lihat Detail</a>
                 </div>
             </div>

@@ -55,11 +55,15 @@
                         </tr>
                         <tr>
                             <th scope="row">Tagihan :</th>
+<<<<<<< HEAD
                             <td colspan="2">Rp 500.000</td>
                         </tr>
                         <tr>
                             <th scope="row">Status :</th>
                             <td class="text-danger">Belum Dibayar</td>
+=======
+                            <td colspan="2">Rp 100.000 </td>
+>>>>>>> 2bad2b2a5b1d74d119ed986645797b9e808d5f0f
                         </tr>
                     </tbody>
                 </table>

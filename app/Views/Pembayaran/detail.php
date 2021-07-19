@@ -69,14 +69,24 @@
             </thead>
             <tbody>
                 <tr>
+<<<<<<< HEAD
                     <th scope="row">Juli, 2021</th>
                     <td>Rp. 500.000</td>
+=======
+                    <th scope="row">1 Juli 2021</th>
+                    <td>Rp. 100.000</td>
+>>>>>>> 2bad2b2a5b1d74d119ed986645797b9e808d5f0f
                     <td class="text-danger">Belum Dibayar</td>
                     <td></td>
                 </tr>
                 <tr>
+<<<<<<< HEAD
                     <th scope="row">Juli, 2021</th>
                     <td>Rp. 500.000</td>
+=======
+                    <th scope="row">2 Juli 2021</th>
+                    <td>Rp. 100.000</td>
+>>>>>>> 2bad2b2a5b1d74d119ed986645797b9e808d5f0f
                     <td class="text-success">Sudah Dibayar</td>
                     <td><a class="btn btn-primary btn-lg text-center" href="<?php echo base_url("pembayaran/detailbulan"); ?>" role="button">Lihat Detail</a></td>
                 </tr>

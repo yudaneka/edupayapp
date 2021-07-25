@@ -35,29 +35,16 @@
             </thead>
             <tbody>
                 <tr>
-<<<<<<< HEAD
                     <th scope="row">Pembayaran SPP</th>
-                    <td>Rp. 500.000</td>
+                    <td>Rp. 100.000</td>
                     <td class="text-danger"></td>
                     <td></td>
                 </tr>
                 <tr>
                     <th scope="row">Total</th>
                     <td></td>
-                    <td>Rp. 500.000</td>
-                    <td class="text-success">Sudah bayar</td>
-=======
-                    <th scope="row">1 Juli 2021</th>
                     <td>Rp. 100.000</td>
-                    <td class="text-danger">Belum Dibayar</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <th scope="row">2 Juli 2021</th>
-                    <td>Rp. 100.000</td>
-                    <td class="text-success">Sudah Dibayar</td>
-                    <td class="text-primary">Berhasil</td>
->>>>>>> 2bad2b2a5b1d74d119ed986645797b9e808d5f0f
+                    <td class="text-success">Berhasil</td>
                 </tr>
             </tbody>
         </table>

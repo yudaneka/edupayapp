@@ -1,4 +1,13 @@
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php 
+
+namespace App\Controllers;
+
+use App\Models\SekolahModel;
+use App\Models\UserModel;
+use CodeIgniter\RESTFul\ResourceController;
+use CodeIgniter\API\ResponseTrait;
+use CodeIgniter\HTTP\RequestInterface;
+use CodeIgniter\Contoller;
 
 class Vtweb extends BaseController {
 
@@ -21,11 +30,11 @@ class Vtweb extends BaseController {
 
 	public function __construct()
     {
-        parent::__construct();
-        $params = array('server_key' => 'SB-Mid-server-G4g6pVW90DSd7Bn9x9nwADvO', 'production' => false);
-		$this->load->library('veritrans');
-		$this->veritrans->config($params);
-		$this->load->helper('url');
+        // parent::__construct();
+        // $params = array('server_key' => 'SB-Mid-server-G4g6pVW90DSd7Bn9x9nwADvO', 'production' => false);
+		// $this->load->library('veritrans');
+		// $this->veritrans->config($params);
+		// $this->load->helper('url');
 		
     }
 

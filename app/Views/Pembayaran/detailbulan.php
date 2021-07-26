@@ -28,7 +28,7 @@
             <thead>
                 <tr>
                     <th scope="col"></th>
-                    <th scope="col">Kategori</th>
+                    <th scope="col">Bulan</th>
                     <th scope="col">Sub Tagihan</th>
                     <th scope="col">Status</th>
                 </tr>
@@ -36,9 +36,10 @@
             <tbody>
                 <tr>
                     <th scope="row">Pembayaran SPP</th>
+                    <td>Juli</td>
                     <td>Rp. 100.000</td>
-                    <td class="text-danger"></td>
                     <td></td>
+
                 </tr>
                 <tr>
                     <th scope="row">Total</th>

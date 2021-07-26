@@ -34,6 +34,8 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 $routes->resource('sekolahapi');
 $routes->resource('userapi');
+$routes->get('/midtrans','snap::index');
+$routes->get('/midtrans/checkout_snap','snap::token');
 $routes->get('/sekolah', 'Sekolah::index');
 $routes->get('/sekolah/create', 'Sekolah::create');
 $routes->delete('/sekolah/(:num)', 'Sekolah::delete/$1');

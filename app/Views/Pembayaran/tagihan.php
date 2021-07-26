@@ -60,7 +60,7 @@
                     </tbody>
                 </table>
                 <div class="text-center">
-                    <a href="" type="submit" class="btn btn-success">Bayar</a>
+                    <a href="/midtrans/checkout_snap" type="submit" class="btn btn-success">Bayar</a>
                     <a class="btn btn-primary" href="<?php echo base_url("pembayaran/detail"); ?>" type="button">Lihat Detail</a>
                 </div>
             </div>

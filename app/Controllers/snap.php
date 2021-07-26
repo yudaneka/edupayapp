@@ -1,6 +1,13 @@
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-header('Access-Control-Allow-Origin: *');
-header('Access-Control-Allow-Methods: GET, OPTIONS');
+<?php 
+
+namespace App\Controllers;
+
+use App\Models\SekolahModel;
+use App\Models\UserModel;
+use CodeIgniter\RESTFul\ResourceController;
+use CodeIgniter\API\ResponseTrait;
+use CodeIgniter\HTTP\RequestInterface;
+use CodeIgniter\Contoller;
 
 class Snap extends BaseController {
 
@@ -23,16 +30,16 @@ class Snap extends BaseController {
 
 	public function __construct()
     {
-        parent::__construct();
+        // parent::__construct();
         $params = array('server_key' => 'SB-Mid-server-G4g6pVW90DSd7Bn9x9nwADvO', 'production' => false);
-		$this->load->library('midtrans');
-		$this->midtrans->config($params);
-		$this->load->helper('url');	
+		// $this->load->library('midtrans');
+		// $this->midtrans->config($params);
+		// $this->load->helper('url');	
     }
 
     public function index()
     {
-    	$this->load->view('checkout_snap');
+    	return view('midtrans/checkout_snap');
     }
 
     public function token()

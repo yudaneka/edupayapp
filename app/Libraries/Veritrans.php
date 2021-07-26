@@ -1,4 +1,13 @@
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed'); 
+<?php 
+
+namespace App\Controllers;
+
+use App\Models\SekolahModel;
+use App\Models\UserModel;
+use CodeIgniter\RESTFul\ResourceController;
+use CodeIgniter\API\ResponseTrait;
+use CodeIgniter\HTTP\RequestInterface;
+use CodeIgniter\Contoller;
 
 class Veritrans {
 

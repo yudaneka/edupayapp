@@ -28,7 +28,12 @@
                             <td><?= $k['name']; ?></td>
                             <td>
                                 <a href="/sekolah/<?= $k['slug']; ?>" class="btn btn-primary">Detail</a>
-                                <a href="" class="btn btn-danger">Hapus</a>
+                                <form action="/sekolah/<?= $k['id_school']; ?>" method="post" class="d-inline">
+                                    <?= csrf_field(); ?>
+                                    <input type="hidden" name="_method" value="DELETE">
+                                    <button type="submit" class="btn btn-danger" onclick="return confirm('Apakah Anda Yakin?');">Delete</button>
+                                </form>
+                                <!-- <a href="" class="btn btn-danger">Hapus</a> -->
                             </td>
                         </tr>
                     <?php endforeach; ?>

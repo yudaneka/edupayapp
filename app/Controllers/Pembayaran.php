@@ -26,4 +26,9 @@ class Pembayaran extends BaseController
     {
         return view('Pembayaran/detailbulan');
     }
+
+    public function paymentgateway()
+    {
+        return view('midtrans/checkout_snap');
+    }
 }

@@ -28,7 +28,6 @@
         <div class="col-sm-4">
             <div class="card text-center">
                 <div class="card-body">
-                    <!-- <img src="/img/?= $sekolah['gedung']; ?>" class="card-img-top" alt="..."> -->
                     <img src="../img/kartika.jpg" class="card-img-top" alt="...">
                     <h5 class="card-title">SMA KARTIKA SILIWANGI 2 BANDUNG</h5>
                     <p class="card-text">JL. PAK GATOT RAYA NO. 73, Gegerkalong, Kec. Sukasari, Kota Bandung Prov. Jawa Barat </p>

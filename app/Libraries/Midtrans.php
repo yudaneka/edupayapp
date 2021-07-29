@@ -1,4 +1,17 @@
+<<<<<<< HEAD
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed'); 
+=======
+<?php 
+
+namespace App\Controllers;
+
+use App\Models\SekolahModel;
+use App\Models\UserModel;
+use CodeIgniter\RESTFul\ResourceController;
+use CodeIgniter\API\ResponseTrait;
+use CodeIgniter\HTTP\RequestInterface;
+use CodeIgniter\Contoller;
+>>>>>>> 3e7a861139782b11a5f592496f66644ea05f3a7d
 
 class Midtrans {
 

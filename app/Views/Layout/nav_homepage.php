@@ -1,7 +1,7 @@
 <!-- Fixed navbar -->
 <div class="container">
     <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white justify-content-between">
-        <a class="navbar-brand" href="<?php echo base_url("home"); ?>"><img src="../img/Eidupay.png" width="110" height="50"></a> 
+        <a class="navbar-brand" href="<?php echo base_url("home"); ?>"><img src="../img/Eidupay.png" width="110" height="50"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -16,7 +16,7 @@
                         Login
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" data-toggle="modal" data-target="#exampleModal1">Orang Tua Siswa</a>
+                        <a class="dropdown-item" data-toggle="modal" data-target="#exampleModal1">Siswa</a>
                         <a class="dropdown-item" data-toggle="modal" data-target="#exampleModal2">Admin</a>
                         <a class="dropdown-item" data-toggle="modal" data-target="#exampleModal3">Sekolah</a>
                         <!--<div class="dropdown-divider"></div>

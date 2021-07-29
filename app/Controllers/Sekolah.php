@@ -150,6 +150,7 @@ class Sekolah extends BaseController
     public function delete($id_school)
     {
         $this->sekolahModel->delete($id_school);
-        return redirect()->to('/home');
+        session()->setFlashdata('pesan', 'Data berhasil dihapus');
+        return redirect()->to('/sekolah');
     }
 }

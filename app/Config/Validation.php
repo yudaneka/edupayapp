@@ -24,7 +24,7 @@ class Validation
 		FormatRules::class,
 		FileRules::class,
 		CreditCardRules::class,
-		\My\Auth\Authentication\Password\ValidationRules::class
+		// \My\Auth\Authentication\Password\ValidationRules::class
 	];
 
 	/**

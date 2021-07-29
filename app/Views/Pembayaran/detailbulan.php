@@ -28,7 +28,7 @@
             <thead>
                 <tr>
                     <th scope="col"></th>
-                    <th scope="col">Kategori</th>
+                    <th scope="col">Bulan</th>
                     <th scope="col">Sub Tagihan</th>
                     <th scope="col">Status</th>
                 </tr>
@@ -36,25 +36,16 @@
             <tbody>
                 <tr>
                     <th scope="row">Pembayaran SPP</th>
-                    <td>Rp. 500.000</td>
-                    <td class="text-danger"></td>
+                    <td>Juli</td>
+                    <td>Rp. 100.000</td>
                     <td></td>
+
                 </tr>
                 <tr>
                     <th scope="row">Total</th>
                     <td></td>
-                    <td>Rp. 500.000</td>
-                    <td class="text-success">Sudah bayar</td>
-                    <th scope="row">1 Juli 2021</th>
                     <td>Rp. 100.000</td>
-                    <td class="text-danger">Belum Dibayar</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <th scope="row">2 Juli 2021</th>
-                    <td>Rp. 100.000</td>
-                    <td class="text-success">Sudah Dibayar</td>
-                    <td class="text-primary">Berhasil</td>
+                    <td class="text-success">Berhasil</td>
                 </tr>
             </tbody>
         </table>

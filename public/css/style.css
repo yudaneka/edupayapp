@@ -5,3 +5,11 @@
 .table > tbody > tr > * {
   vertical-align: middle;
 }
+
+.buttonBot {
+  display: flex;
+}
+
+#TitleSekolah {
+  text-align: center;
+}

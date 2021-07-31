@@ -1,7 +1,6 @@
-<?= $this->extend('layout/template'); ?>
-
+<?= $this->extend('layout/templateAdmin'); ?>
 <?= $this->section('content'); ?>
-<div class="container">
+<div class="container"><br>
     <div class="row">
         <div class="col-8">
             <h2 class="my-3">Form Tambah Data Sekolah</h2>
@@ -37,15 +36,16 @@
                 <div class="form-group row">
                     <label for="gedung" class="col-sm-2 col-form-label">Gedung</label>
                     <div class="col-sm-2">
-                    <img src="/img/default.jpg" class="img-thumbnail img-preview"></div>
+                        <img src="/img/default.jpg" class="img-thumbnail img-preview">
+                    </div>
                     <div class="col-sm-8">
                         <div class="custom-file">
-                        <input type="file" class="custom-file-input <?= ($validation->hasError('gedung')) 
-                        ? 'is-invalid' : ''; ?>" id="gedung" name="gedung" onchange="previewImg()">
-                        <div class="invalid-feedback">
-                            <?= $validation->getError('gedung'); ?>
-                        </div>
-                        <label class="custom-file-label" for="gedung">Choose File</label>
+                            <input type="file" class="custom-file-input <?= ($validation->hasError('gedung'))
+                                                                            ? 'is-invalid' : ''; ?>" id="gedung" name="gedung" onchange="previewImg()">
+                            <div class="invalid-feedback">
+                                <?= $validation->getError('gedung'); ?>
+                            </div>
+                            <label class="custom-file-label" for="gedung">Choose File</label>
                         </div>
                     </div>
                 </div>

@@ -1,7 +1,7 @@
-<?= $this->extend('layout/template'); ?>
+<?= $this->extend('layout/templateAdmin'); ?>
 
 <?= $this->section('content'); ?>
-<div class="container">
+<div class="container"><br>
     <div class="row">
         <div class="col">
             <h2 class="mt-2">Detail Sekolah</h2>

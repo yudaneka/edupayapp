@@ -23,9 +23,8 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="<?php echo base_url("Pengaturan"); ?>">Akun Saya</a>
-                        <a class="dropdown-item" href="#">Riwayat</a>
-                        <a class="dropdown-item" href="#">Pengaturan</a>
-                        <a class="dropdown-item" href="#">Logout</a>
+                        <a class="dropdown-item" href="<?php echo base_url("Pembayaran/detail"); ?>">Riwayat</a>
+                        <a class="dropdown-item" href="<?php echo base_url("Home"); ?>">Logout</a>
                         <!--<div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">Something else here</a> -->
                     </div>

@@ -11,10 +11,6 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <!--<a class="btn btn-primary" href="https://www.eidupay.com/" role="button">Info</a>
                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">Login</button> -->
-                <li class="nav-item active">
-                    <a class="nav-link" href="<?php echo base_url("pembayaran/tagihan"); ?>">ConfirmPayment <span class="sr-only">(curr
-                            ent)</span></a>
-                </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">

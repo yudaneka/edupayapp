@@ -18,15 +18,15 @@
         <form>
             <div class="form-group">
                 <label for="exampleInputPassword1">Nomer Induk Siswa</label>
-                <input type="nomerinduksiswa" class="form-control" id="nomerinduk" placeholder="">
+                <input type="nomerinduksiswa" class="form-control" id="nomerinduk" placeholder="Nomer Induk Siswa">
             </div>
             <div class="form-group">
                 <label for="exampleInputPassword1">Nama Siswa</label>
-                <input type="namasiswa" class="form-control" id="namalengkapsiswa" placeholder="">
+                <input type="namasiswa" class="form-control" id="namalengkapsiswa" placeholder="Nama Lengkap">
             </div>
             <div class="form-group">
                 <label for="exampleInputPassword1">Nomer Telfon</label>
-                <input type="nomersiswa" class="form-control" id="nomertelfonsiswa" placeholder="">
+                <input type="nomersiswa" class="form-control" id="nomertelfonsiswa" placeholder="Nomer Telfon">
             </div>
             <div class="form-group">
                 <label for="exampleInputPassword1">Password</label>
